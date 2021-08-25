@@ -54,6 +54,8 @@ body {
     align-items: center;
     padding: 2rem 0;
     margin: auto;
+    max-width: 340px;
+    min-width: 300px;
 }
 
 .group {
@@ -71,7 +73,7 @@ body {
     min-height: 19rem;
 }
 
-.group:nth-child(2) {    /* seletor de css que pega os filhos do elemento selecionado, no caso .group filho (1) */
+.group:nth-child(2) {    /* seletor de css que pega os filhos do elemento selecionado, no caso .group filho (2) */
     margin-top: 10px;
     padding: 1.7rem;
 
@@ -168,6 +170,19 @@ body {
 
 
 
+/*RESPONSIVIDADES  MEDIA QUERIES     TABLET E CELULAR */
+
+@media (max-width: 650px) {  
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px) {  
+    .rodape a{
+        font-size: 8px;
+    }
+}
 
 
 
